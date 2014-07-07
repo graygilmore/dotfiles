@@ -1,0 +1,55 @@
+'welcome':
+  'showOnStartup': false
+'core':
+  'themes': [
+    'flatland-dark-ui'
+    'flatland-dark'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+    'build'
+    '.svg'
+    '.jpg'
+    '.png'
+  ]
+  'disabledPackages': [
+    'styleguide'
+    'open-on-github'
+    'release-notes'
+    'package-generator'
+    'autocomplete-plus'
+    'markdown-preview'
+    'wrap-guide'
+  ]
+  'destroyEmptyPanes': false
+'editor':
+  'fontSize': 14
+  'fontFamily': 'Menlo'
+  'softWrap': true
+  'softTabs': true
+  'showInvisibles': true
+  'invisibles':
+    'cr': ''
+    'eol': ''
+    'space': '·'
+    'tab': '⇥'
+  'showIndentGuide': true
+'spell-check':
+  'grammars': [
+    'source.gfm'
+    'text.git-commit'
+    'text.plain'
+  ]
+'feedback':
+  'email': 'graygilmore@gmail.com'
+'tree-view':
+  'hideIgnoredNames': true
+'markdown-preview':
+  'grammars': [
+    'source.gfm'
+    'source.litcoffee'
+    'text.plain'
+    'text.plain.null-grammar'
+  ]
