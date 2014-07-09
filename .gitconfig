@@ -1,0 +1,21 @@
+[user]
+	name = Gray Gilmore
+	email = graygilmore@gmail.com
+
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = atom -n -w
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+
+[push]
+	default = simple
+
+[branch]
+	autosetuprebase = always
+
+[merge]
+  log = true
