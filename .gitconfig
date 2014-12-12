@@ -19,3 +19,6 @@
 
 [merge]
   log = true
+
+[rebase]
+	autosquash = true
