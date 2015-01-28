@@ -1,0 +1,27 @@
+.poster {
+  background: black;
+}
+
+.poster img {
+  opacity: 0;
+}
+
+.fanarts .fanart .real {
+  display: none;
+}
+
+#info-wrapper .info #overview {
+  display: none
+}
+
+.schedule-episode h5,
+.fanarts .fanart h3,
+#summary-wrapper .summary .container h1.episode {
+  visibility: hidden;
+}
+
+.schedule-episode h5 .main-title-sxe,
+.fanarts .fanart h3 .main-title-sxe,
+#summary-wrapper .summary .container h1.episode .main-title-sxe {
+  visibility: visible;
+}
