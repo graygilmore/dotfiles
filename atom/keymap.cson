@@ -1,0 +1,5 @@
+'body':
+  'cmd-k j': 'window:focus-pane-on-down'
+  'cmd-k k': 'window:focus-pane-on-up'
+  'cmd-k h': 'window:focus-pane-on-left'
+  'cmd-k l': 'window:focus-pane-on-right'
