@@ -23,6 +23,19 @@ atom-text-editor::shadow {
   }
 }
 
+atom-text-editor,
+atom-text-editor::shadow {
+  .find-result .region {
+    background: black;
+    border: 1px solid yellow;
+  }
+
+  .current-result .region {
+    border: 1px solid yellow !important;
+    background-color: white;
+  }
+}
+
 // dark theme / light scrollbar fix
 ::-webkit-scrollbar {
   width: 8px;

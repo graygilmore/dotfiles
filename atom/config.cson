@@ -25,7 +25,7 @@
   ]
   'destroyEmptyPanes': false
 'editor':
-  'fontSize': 14
+  'fontSize': 15
   'fontFamily': 'Menlo'
   'softWrap': true
   'softTabs': true
@@ -45,7 +45,7 @@
 'feedback':
   'email': 'graygilmore@gmail.com'
 'tree-view':
-  'hideIgnoredNames': true
+  'hideIgnoredNames': false
 'markdown-preview':
   'grammars': [
     'source.gfm'

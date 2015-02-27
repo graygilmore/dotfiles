@@ -3,3 +3,5 @@
   'cmd-k k': 'window:focus-pane-on-up'
   'cmd-k h': 'window:focus-pane-on-left'
   'cmd-k l': 'window:focus-pane-on-right'
+'.platform-darwin atom-text-editor':
+  'cmd-g': 'go-to-line:toggle'
