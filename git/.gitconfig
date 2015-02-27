@@ -1,10 +1,13 @@
+[init]
+  templatedir = ~/.git-template
+
 [user]
-	name = Gray Gilmore
-	email = graygilmore@gmail.com
+  name = Gray Gilmore
+  email = graygilmore@gmail.com
 
 [core]
-	excludesfile = ~/.gitignore_global
-	editor = vim
+  excludesfile = ~/.gitignore_global
+  editor = vim
 
 [color]
   branch = auto
@@ -12,13 +15,13 @@
   status = auto
 
 [push]
-	default = simple
+  default = simple
 
 [branch]
-	autosetuprebase = always
+  autosetuprebase = always
 
 [merge]
   log = true
 
 [rebase]
-	autosquash = true
+  autosquash = true
