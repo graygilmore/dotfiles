@@ -1,16 +1,23 @@
-set nocompatible " be iMproved, required
-filetype off " required
-
-" set the runtime path to include Vundle and initialize
+set nocompatible
+filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
-" let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" Use sensible defaults and the latest Ruby
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-sensible'
+Plugin 'vim-ruby/vim-ruby'
 
-" All of your Plugins must be added before the following line
-call vundle#end() " required
-filetype plugin indent on " required
+call vundle#end()
+filetype plugin indent on
+syntax on
+
+set noswapfile
+set nobackup
+set noerrorbells visualbell t_vb=
+set number
+set expandtab
+set softtabstop=2
+set shiftwidth=2
+
