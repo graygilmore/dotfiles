@@ -25,3 +25,29 @@
 
 [rebase]
   autosquash = true
+
+[alias]
+  a   = add
+  b   = branch
+  bl  = branch -a
+  c   = commit -v
+  ca  = commit -v --amend
+  co  = checkout
+  cb  = checkout -b
+  d   = diff --color
+  ds  = diff --color --staged
+  ff  = merge --ff-only
+  lg  = log --graph --pretty=format:'%C(bold cyan)%h%C(reset) %C(blue)%cd %C(bold green)%s %C(bold cyan)%an%Creset%C(bold red)%d' --abbrev-commit --date=short
+  m   = merge
+  mff = merge --ff-only
+  p   = push
+  pu  = push -u
+  pl  = pull
+  r   = rebase
+  ra  = rebase --abort
+  rc  = rebase --continue
+  ri  = rebase -i
+  flog = reflog --pretty=format:'%C(bold cyan)%h%C(reset) %C(blue)%cd %C(bold green)%s %C(bold cyan)%an%Creset%C(bold red)%d' --abbrev-commit --date=short
+  rh  = reset --hard
+  s   = status -s
+  ss  = status
