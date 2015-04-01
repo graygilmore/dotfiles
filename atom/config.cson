@@ -33,7 +33,7 @@
     invisibles:
       tab: "⇥"
     showIndentGuide: true
-    fontSize: 15
+    fontSize: 14
   "spell-check":
     grammars: [
       "source.gfm"
@@ -53,3 +53,5 @@
     ]
   "exception-reporting":
     userId: "9245bfac-8c25-8aa1-bdbc-14eb732dd117"
+  "gist-it":
+    newGistsDefaultToPrivate: true
