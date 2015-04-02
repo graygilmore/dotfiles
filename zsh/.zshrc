@@ -14,6 +14,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias repos="cd /Users/graygilmore/Repos/"
+alias be="bundle exec"
 bump() { git commit -m "Bump to $1" && git tag -a $1 -m "Bump version $1" }
 
 # ZSH
