@@ -8,7 +8,7 @@ export PATH="$HOME/bin:$PATH"
 ZSH_THEME="robbyrussell"
 
 # Plugins
-plugins=(git osx)
+plugins=(osx)
 
 source $ZSH/oh-my-zsh.sh
 
