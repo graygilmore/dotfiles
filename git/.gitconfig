@@ -34,6 +34,7 @@
   ca = commit -v --amend
   co = checkout
   cb = checkout -b
+  cp = cherry-pick
   d = diff --color
   ds = diff --color --staged
   lg = log --graph --pretty=format:'%C(bold cyan)%h%C(reset) %C(blue)%cd %C(bold green)%s %C(bold cyan)%an%Creset%C(bold red)%d' --abbrev-commit --date=short
