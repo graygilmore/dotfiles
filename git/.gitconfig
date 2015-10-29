@@ -43,6 +43,7 @@
   mff = merge --ff-only
   p = push
   pu = push -u
+  pfl = push --force-with-lease
   pl = pull
   r = rebase
   ra = rebase --abort
