@@ -16,7 +16,6 @@ source $ZSH/oh-my-zsh.sh
 alias repos="cd /Users/graygilmore/Repos/"
 alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
-bump() { git commit -m "Bump to $1" && git tag -a $1 -m "Bump version $1" }
 
 # ZSH
 unsetopt correct
