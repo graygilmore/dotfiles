@@ -9,3 +9,4 @@ Thumbs.db
 .sass-cache
 **/vendor/bundle
 .bundle/*
+.ruby-version
