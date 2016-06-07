@@ -28,7 +28,7 @@ function insert-fzy-path-in-command-line() {
     # Print a newline or we'll clobber the old prompt.
     echo
     # Find the path; abort if the user doesn't select anything.
-    selected_path=$(find * -type f | fzy) || return
+    selected_path=$(ag . --nocolor -l -g '' | fzy) || return
     # Append the selection to the current command buffer.
     eval 'LBUFFER="$LBUFFER$selected_path "'
     # Redraw the prompt since Selecta has drawn several new lines of text.
