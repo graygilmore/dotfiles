@@ -5,3 +5,5 @@
   'cmd-k l': 'window:focus-pane-on-right'
 '.platform-darwin atom-text-editor':
   'cmd-g': 'go-to-line:toggle'
+'.tree-view, .platform-darwin atom-text-editor':
+  'cmd-shift-r': 'tree-view:move'
