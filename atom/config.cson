@@ -1,20 +1,9 @@
 "*":
-  welcome:
-    showOnStartup: false
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
   core:
-    themes: [
-      "flatland-dark-ui"
-      "flatland-dark"
-    ]
-    ignoredNames: [
-      ".git"
-      ".svn"
-      ".DS_Store"
-      "build"
-      ".svg"
-      ".jpg"
-      ".png"
-    ]
+    destroyEmptyPanes: false
     disabledPackages: [
       "styleguide"
       "open-on-github"
@@ -24,26 +13,26 @@
       "markdown-preview"
       "wrap-guide"
     ]
-    destroyEmptyPanes: false
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+      "build"
+    ]
   editor:
     fontFamily: "Menlo"
-    softWrap: true
-    softTabs: true
-    showInvisibles: true
     invisibles:
       tab: "⇥"
     showIndentGuide: true
-    fontSize: 14
-  "spell-check":
-    grammars: [
-      "source.gfm"
-      "text.git-commit"
-      "text.plain"
-    ]
+    showInvisibles: true
+    softTabs: true
+    softWrap: true
+  "exception-reporting":
+    userId: "9245bfac-8c25-8aa1-bdbc-14eb732dd117"
   feedback:
     email: "graygilmore@gmail.com"
-  "tree-view":
-    hideIgnoredNames: false
+  "gist-it":
+    newGistsDefaultToPrivate: true
   "markdown-preview":
     grammars: [
       "source.gfm"
@@ -51,7 +40,13 @@
       "text.plain"
       "text.plain.null-grammar"
     ]
-  "exception-reporting":
-    userId: "9245bfac-8c25-8aa1-bdbc-14eb732dd117"
-  "gist-it":
-    newGistsDefaultToPrivate: true
+  "spell-check":
+    grammars: [
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+    ]
+  "tree-view":
+    hideIgnoredNames: false
+  welcome:
+    showOnStartup: false
