@@ -54,3 +54,4 @@
   rh = reset --hard
   s = status -s
   ss = status
+  test = !sh -c 'git push --force-with-lease origin HEAD:$1' -
