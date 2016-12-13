@@ -2,6 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$PATH:`yarn global bin`"
 export PATH="$HOME/bin:$PATH"
 
 # Theme
