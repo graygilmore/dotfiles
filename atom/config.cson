@@ -18,6 +18,7 @@
       ".DS_Store"
       "build"
     ]
+    telemetryConsent: "no"
   editor:
     fontFamily: "Menlo"
     invisibles:
