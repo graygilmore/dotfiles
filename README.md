@@ -14,3 +14,10 @@ stow atom bin git ruby tmux vim zsh -t ~
 brew update
 brew install diff-so-fancy
 ```
+
+### [ripgrep](https://github.com/BurntSushi/ripgrep)
+
+```bash
+brew update
+brew install ripgrep
+```
