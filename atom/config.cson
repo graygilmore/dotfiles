@@ -50,3 +50,16 @@
     hideIgnoredNames: false
   welcome:
     showOnStartup: false
+".css.scss.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…"
+".css.source":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!#$@%^&*|+=[]{}`?-…"
+".html.ruby.text":
+  editor:
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…"
+".sass.source":
+  editor:
+    autoIndent: false
+    nonWordCharacters: "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-…"
