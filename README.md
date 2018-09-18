@@ -21,3 +21,12 @@ brew install diff-so-fancy
 brew update
 brew install ripgrep
 ```
+
+### [n](https://github.com/tj/n)
+
+Let's make use of [n-install](https://github.com/mklement0/n-install) to set up
+some defaults for us.
+
+```bash
+curl -L https://git.io/n-install | bash
+```
