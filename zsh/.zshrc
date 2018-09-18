@@ -58,3 +58,6 @@ hcl() {
   =hcl "$@"
   tmux refresh-client -S
 }
+
+# Necessary for direnv to function properly
+eval "$(direnv hook zsh)"
