@@ -62,4 +62,8 @@ hcl() {
 # Necessary for direnv to function properly
 eval "$(direnv hook zsh)"
 
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+# Added by n-install (see http://git.io/n-install-repo).
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+
+# Add private things that we don't want public on the dotfiles repo
+[ -f ~/.private_zshrc ] && source ~/.private_zshrc
