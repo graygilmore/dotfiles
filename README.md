@@ -3,7 +3,7 @@
 Installation made super easy with `stow`.
 
 ```bash
-stow atom bin git ruby tmux vim zsh -t ~
+stow atom bin git ruby tmux vim vscode zsh -t ~
 ```
 
 ## Dependencies
