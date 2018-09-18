@@ -4,6 +4,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
 export PATH="$HOME/bin:$PATH"
+export PATH="/usr/local/bin/python3:$PATH"
 
 # Theme
 ZSH_THEME="robbyrussell"
