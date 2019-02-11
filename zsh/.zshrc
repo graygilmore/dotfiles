@@ -15,7 +15,7 @@ plugins=(osx)
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-alias repos="cd /Users/graygilmore/Repos/"
+alias repos="cd /Users/graygilmore/repos/"
 alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
 
