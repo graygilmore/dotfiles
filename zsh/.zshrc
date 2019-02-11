@@ -53,12 +53,6 @@ alias hidehidden="defaults write com.apple.finder AppleShowAllFiles 0 && killall
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
-# Refresh tmux after timer commands.
-hcl() {
-  =hcl "$@"
-  tmux refresh-client -S
-}
-
 # Necessary for direnv to function properly
 eval "$(direnv hook zsh)"
 
