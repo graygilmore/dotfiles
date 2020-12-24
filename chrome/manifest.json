@@ -1,9 +1,0 @@
-{
-  "manifest_version": 2,
-  "name": "Trakt.tv style overrides",
-  "version": "0.1",
-  "content_scripts": [{
-    "matches": ["http://trakt.tv/*"],
-    "css": ["style.css"]
-  }]
-}
