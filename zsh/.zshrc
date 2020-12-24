@@ -12,6 +12,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
+alias brew='arch -x86_64 brew'
 
 # Use fzy for finding paths
 # By default, ^S freezes terminal output and ^Q resumes it. Disable that so
