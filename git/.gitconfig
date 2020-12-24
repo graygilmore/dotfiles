@@ -30,7 +30,6 @@
 [alias]
   a = add
   b = branch
-  bl = branch -a
   c = commit -v
   ca = commit -v --amend
   co = checkout
@@ -38,21 +37,14 @@
   cp = cherry-pick
   d = diff --color
   ds = diff --color --staged
-  dw = diff -w
   git = "!git"
   lg = log --graph --pretty=format:'%C(bold cyan)%h%C(reset) %C(blue)%cd %C(bold green)%s %C(bold cyan)%an%Creset%C(bold red)%d' --abbrev-commit --date=short
-  m = merge
-  mff = merge --ff-only
   p = push
   pu = push -u
   pfl = push --force-with-lease
   pl = pull
-  r = rebase
   ra = rebase --abort
   rc = rebase --continue
   ri = rebase -i
   flog = reflog --pretty=format:'%C(bold cyan)%h%C(reset) %C(blue)%cd %C(bold green)%s %C(bold cyan)%an%Creset%C(bold red)%d' --abbrev-commit --date=short
-  rh = reset --hard
   s = status -s
-  ss = status
-  test = !sh -c 'git push --force-with-lease origin HEAD:$1' -
