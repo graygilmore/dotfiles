@@ -1,10 +1,5 @@
-# Environment
-ZSH=$HOME/.oh-my-zsh
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/heroku/bin:$PATH"
-export PATH="$PATH:`yarn global bin`"
-export PATH="$HOME/bin:$PATH"
-export PATH="/usr/local/bin/python3:$PATH"
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/graygilmore/.oh-my-zsh"
 
 # Theme
 ZSH_THEME="robbyrussell"
@@ -15,7 +10,6 @@ plugins=(osx)
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-alias repos="cd /Users/graygilmore/repos/"
 alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
 
@@ -41,23 +35,9 @@ zle -N insert-fzy-path-in-command-line
 # Bind the key to the newly created widget
 bindkey "^S" "insert-fzy-path-in-command-line"
 
-# ZSH
-unsetopt correct
-unsetopt correct_all
-
-# OS X
-alias showhidden="defaults write com.apple.finder AppleShowAllFiles 1 && killall Finder"
-alias hidehidden="defaults write com.apple.finder AppleShowAllFiles 0 && killall Finder"
-
 # Ruby
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
-
-# Necessary for direnv to function properly
-eval "$(direnv hook zsh)"
-
-# Added by n-install (see http://git.io/n-install-repo).
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 # Add private things that we don't want public on the dotfiles repo
 [ -f ~/.private_zshrc ] && source ~/.private_zshrc
