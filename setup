@@ -1,10 +1,16 @@
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+git clone git@github.com:so-fancy/diff-so-fancy.git
+
+mkdir ~/.bin
+
 ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/tmux/.tmux.theme ~/.tmux.theme
 ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
+
+ln -s ~/diff-so-fancy/diff-so-fancy ~/.bin/diff-so-fancy
 
 if ! command -v fzy &> /dev/null; then
   sudo apt-get install -y fzy

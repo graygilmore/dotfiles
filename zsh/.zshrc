@@ -13,6 +13,9 @@ alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
 alias brew='arch -x86_64 brew'
 
+# Add a default scripts folder to $PATH
+path+=($HOME/.bin)
+
 # Use fzy for finding paths
 # By default, ^S freezes terminal output and ^Q resumes it. Disable that so
 # that those keys can be used for other things.
