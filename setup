@@ -1,0 +1,17 @@
+ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
+ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/tmux/.tmux.theme ~/.tmux.theme
+ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
+
+if ! command -v fzy &> /dev/null; then
+  sudo apt-get install -y fzy
+fi
+
+if ! command -v rg &> /dev/null; then
+  sudo apt-get install -y ripgrep
+fi
+
+if ! command -v diff-so-fancy &> /dev/null; then
+  sudo apt-get install -y diff-so-fancy
+fi
