@@ -19,7 +19,3 @@ fi
 if ! command -v rg &> /dev/null; then
   sudo apt-get install -y ripgrep
 fi
-
-if ! command -v diff-so-fancy &> /dev/null; then
-  sudo apt-get install -y diff-so-fancy
-fi
