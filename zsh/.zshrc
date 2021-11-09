@@ -4,7 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Plugins
-plugins=(osx)
+plugins=(macos)
 
 source $ZSH/oh-my-zsh.sh
 
