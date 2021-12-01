@@ -11,7 +11,6 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
-alias brew='arch -x86_64 brew'
 
 # Add a default scripts folder to $PATH
 path+=($HOME/.bin)
@@ -39,8 +38,8 @@ zle -N insert-fzy-path-in-command-line
 bindkey "^S" "insert-fzy-path-in-command-line"
 
 # Ruby
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 
 # Add private things that we don't want public on the dotfiles repo
 [ -f ~/.private_zshrc ] && source ~/.private_zshrc
