@@ -11,6 +11,8 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias be="bundle exec"
 alias simpleserver="python -m SimpleHTTPServer 8000"
+alias sc="systemctl"
+alias jc="journalctl"
 
 # Add a default scripts folder to $PATH
 path+=($HOME/.bin)
