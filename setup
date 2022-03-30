@@ -9,6 +9,7 @@ ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
 ln -sf ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/tmux/.tmux.theme ~/.tmux.theme
 ln -sf ~/dotfiles/git/.gitconfig ~/.gitconfig
+ln -sf ~/dotfiles/git/.gitconfig.spin ~/.gitconfig.spin
 
 ln -s ~/diff-so-fancy/diff-so-fancy ~/.bin/diff-so-fancy
 
@@ -19,3 +20,5 @@ fi
 if ! command -v rg &> /dev/null; then
   sudo apt-get install -y ripgrep
 fi
+
+git config --global include.path '~/.gitconfig.spin'
