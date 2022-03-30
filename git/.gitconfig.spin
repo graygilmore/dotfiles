@@ -1,6 +1,6 @@
 [alias]
-  c = commit -v
-  ca = commit -v --amend
+  c = commit -v -S
+  ca = commit -v --amend -S
   
 [oh-my-zsh]
   hide-dirty = 1
