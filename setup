@@ -21,4 +21,4 @@ if ! command -v rg &> /dev/null; then
   sudo apt-get install -y ripgrep
 fi
 
-git config --global include.path '~/.gitconfig.spin'
+git config --global include.path '~/.gitconfig.spinner'
