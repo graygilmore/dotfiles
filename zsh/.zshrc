@@ -45,3 +45,10 @@ source /opt/homebrew/opt/chruby/share/chruby/auto.sh
 
 # Add private things that we don't want public on the dotfiles repo
 [ -f ~/.private_zshrc ] && source ~/.private_zshrc
+
+
+[[ -x /opt/homebrew/bin/brew ]] && eval $(/opt/homebrew/bin/brew shellenv)
+
+# Shopify Hydrogen alias to local projects
+alias h2='$(npm prefix -s)/node_modules/.bin/shopify hydrogen'
+[[ -f /opt/dev/sh/chruby/chruby.sh ]] && { type chruby >/dev/null 2>&1 || chruby () { source /opt/dev/sh/chruby/chruby.sh; chruby "$@"; } }
