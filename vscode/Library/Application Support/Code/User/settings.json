@@ -1,15 +1,91 @@
 {
-    "editor.fontSize": 14,
+  "html.format.wrapLineLength": 80,
+  "gitlens.blame.highlight.locations": ["overview", "line", "gutter"],
+  "gitlens.codeLens.scopes": ["document"],
+  "files.insertFinalNewline": true,
+  "workbench.editor.closeEmptyGroups": false,
+  "editor.minimap.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.colorDecorators": false,
+  "files.trimTrailingWhitespace": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "sorbet.enabled": true,
+  "workbench.startupEditor": "none",
+  "rubyLsp.enabledFeatures": {
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "formatting": true,
+    "diagnostics": true,
+    "codeActions": true,
+    "onTypeFormatting": false
+  },
+  "editor.inlineSuggest.enabled": true,
+  "[ruby]": {
     "editor.formatOnSave": true,
-    "editor.minimap.enabled": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.rulers": [
-        80
-    ],
-    "files.trimTrailingWhitespace": true,
-    "window.title": "${activeEditorLong}${separator}${rootName}",
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false
-    },
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.semanticHighlighting.enabled": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "remote.SSH.connectTimeout": 300,
+  "workbench.colorTheme": "Atom One Light",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.codeActionsOnSave.rules": null,
+  "editor.fontSize": 14,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.annotations.enabled": false,
+  "gitlens.hovers.enabled": false
 }
