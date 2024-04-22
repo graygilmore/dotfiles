@@ -49,3 +49,5 @@
   form = !git fetch origin main && git rebase origin/main
   flog = reflog --pretty=format:'%C(bold cyan)%h%C(reset) %C(blue)%cd %C(bold green)%s %C(bold cyan)%an%Creset%C(bold red)%d' --abbrev-commit --date=short
   s = status -s
+[include]
+	path = /Users/graygilmore/.config/dev/gitconfig
